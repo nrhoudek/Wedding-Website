@@ -1,0 +1,370 @@
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+}
+
+nav {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #fff;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+
+/* Containers */
+.container-fluid {
+  overflow: hidden;
+  padding: 1% 1% 0;
+  position: relative;
+}
+/* Header */
+.wedding-date {
+  float: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+.wedding-location {
+  float: right;
+  font-size: 0.8rem;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+.header-names {
+  display: block;
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0;
+}
+.nav-item {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFE5B4;
+}
+
+.navbar-toggler {
+  margin-bottom: 4px;
+}
+/* Jumbotron */
+.jumbotron-fluid {
+  background-image: url(../Images/hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  z-index: 1
+}
+
+.jumbotron-text {
+  color: #fff;
+  font-size: 6.5rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Public Information Section */
+.public-info {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.public-info-photo-top-left {
+  background-image: url(../Images/flowers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  height: 35%;
+  width: 35%;
+}
+
+.public-info-photo-bottom-left {
+  background-image: url(../Images/flowers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  transform: scaleY(-1);
+  bottom: -150px;
+  left: -150px;
+  height: 35%;
+  width: 35%;
+}
+
+.public-info-photo-top-right {
+  background-image: url(../Images/flowers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  transform: scaleX(-1);
+  top: -150px;
+  right: -150px;
+  height: 35%;
+  width: 35%;
+}
+
+.public-info-photo-bottom-right {
+  background-image: url(../Images/flowers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  transform: scaleX(-1);
+  transform: scaleY(-1);
+  bottom: -150px;
+  right: -150px;
+  height: 35%;
+  width: 35%;
+}
+
+.public-info-location-date-photo {
+  background-image: url(../Images/tillage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 194px;
+  width: 600px;
+  transform: translate(-50%, -50%);
+}
+
+.public-info-location-date {
+  position: relative;
+}
+
+.public-info-names {
+  font-size: 4rem;
+}
+
+.and-text {
+  font-family: 'Cardo', serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.names {
+  margin-bottom: 100px;
+}
+
+.location-date-split {
+  border: none;
+  background-color: #000;
+  height: 2px;
+  width: 7%;
+}
+
+
+.location-date-text {
+  font-family: 'Cardo', serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.accent-text {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.50rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+/* Where it all started... Section */
+.where-it-all-started {
+  margin: 150px auto 75px;
+  text-align: center;
+  width: 50%;
+}
+
+.where-it-all-started-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.where-it-all-started-subtitle {
+  font-family: 'Cardo', serif;
+  font-size: 1.5rem;
+  padding-bottom: 60px;
+}
+
+.where-it-all-started-text-section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.where-it-all-started-text {
+  font-family: 'Cardo', serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer-hr {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+  .where-it-all-started {
+    width: 70%;
+  }
+
+  .where-it-all-started-text-section {
+    width: 100%;
+  }
+
+  .public-info-photo-top-left {
+    top: -50px;
+    left: -50px;
+  }
+
+  .public-info-photo-bottom-left {
+    bottom: -100px;
+    left: -150px;
+  }
+
+  .public-info-photo-top-right {
+    top: -50px;
+    right: -50px;
+  }
+
+  .public-info-photo-bottom-right {
+    bottom: -150px;
+    right: -125px;
+    height: 25%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .where-it-all-started {
+    width: 85%;
+  }
+
+  .where-it-all-started-text-section {
+    width: 100%;
+  }
+
+  .public-info-photo-top-left {
+    top: -50px;
+    left: 0;
+    height: 25%;
+    width: 25%;
+  }
+
+  .public-info-photo-bottom-left {
+    height: 0;
+    width: 0;
+  }
+
+  .public-info-photo-top-right {
+    top: -50px;
+    right: 0;
+    height: 25%;
+    width: 25%;
+  }
+
+  .public-info-photo-bottom-right {
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .where-it-all-started {
+    width: 95%;
+  }
+
+  .where-it-all-started-text-section {
+    width: 100%;
+  }
+
+  .public-info-photo-top-left {
+    height: 0;
+    width: 0;
+  }
+
+  .public-info-photo-bottom-left {
+    height: 0;
+    width: 0;
+  }
+
+  .public-info-photo-top-right {
+    height: 0;
+    width: 0;
+  }
+
+  .public-info-photo-bottom-right {
+    height: 0;
+    width: 0;
+  }
+  .public-info-location-date-photo {
+    background-size: contain;
+    transform: rotate(90deg);
+    left: -5%;
+    top: 5%;
+    width: 110%;
+    height: 100%;
+  }
+
+}
+
+
+
+/* font-family: 'Cardo', serif; can be used in 400 and 700
+font-family: 'Pinyon Script', cursive; can be used in 400 */
